@@ -14,6 +14,7 @@ class CreateApartamentosTable extends Migration
     public function up()
     {
         Schema::create('apartamentos', function (Blueprint $table) {
+            $table->engine = 'MyISAM';
             $table->bigIncrements('id');
             $table->string('unidade');
             $table->timestamps();

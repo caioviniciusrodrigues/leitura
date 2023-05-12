@@ -14,6 +14,7 @@ class CreatePapelsTable extends Migration
     public function up()
     {
         Schema::create('papeis', function (Blueprint $table) {
+            $table->engine = 'MyISAM';
             $table->increments('id')->unsigned();
             $table->string("nome");
             $table->string("descricao")->nullable();
@@ -21,6 +22,7 @@ class CreatePapelsTable extends Migration
         });
 
         Schema::create('papel_permissao', function (Blueprint $table) {
+            $table->engine = 'MyISAM';
             $table->integer('permissao_id')->unsigned();
             $table->integer('papel_id')->unsigned();
 
@@ -31,6 +33,7 @@ class CreatePapelsTable extends Migration
         });
 
         Schema::create('papel_user', function (Blueprint $table) {
+            $table->engine = 'MyISAM';
             $table->integer('papel_id')->unsigned();
             $table->integer('user_id')->unsigned();
 

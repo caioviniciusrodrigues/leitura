@@ -14,6 +14,7 @@ class CreateLeiturasTable extends Migration
     public function up()
     {
         Schema::create('leituras', function (Blueprint $table) {
+            $table->engine = 'MyISAM';
             $table->bigIncrements('id');
             $table->timestamps();
         });
