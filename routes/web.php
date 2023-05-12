@@ -36,12 +36,6 @@ Route::fallback(function () {
 });
 
 
-Route::group(['prefix' => 'permissaoddr',  'middleware' => 'auth'], function() {
-
-    Route::resource('permissaoddr', PermissaoController::class);
-
-});
-
 
 
 
