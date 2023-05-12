@@ -24,8 +24,8 @@ class CreatePapelsTable extends Migration
             $table->integer('permissao_id')->unsigned();
             $table->integer('papel_id')->unsigned();
 
-            $table->foreign('permissao_id')->references('id')->on('permissoes')->onDelete('cascade');
-            $table->foreign('papel_id')->references('id')->on('papeis')->onDelete('cascade');
+            $table->foreign('permissao_id')->references('id')->on('permissoes')->onDelete('cascade')->unsigned();;
+            $table->foreign('papel_id')->references('id')->on('papeis')->onDelete('cascade')->unsigned();;
 
             $table->primary(['permissao_id','papel_id']);
         });
@@ -34,8 +34,8 @@ class CreatePapelsTable extends Migration
             $table->integer('papel_id')->unsigned();
             $table->integer('user_id')->unsigned();
 
-            $table->foreign('papel_id')->references('id')->on('papeis')->onDelete('cascade');
-            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+            $table->foreign('papel_id')->references('id')->on('papeis')->onDelete('cascade')->unsigned();;
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade')->unsigned();;
 
 
             $table->primary(['papel_id','user_id']);
