@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.17.0.final using JasperReports Library version 6.17.0-6d93193241dd8cc42629e188b94f9e0bc5722efd  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Escolas_A4" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="6a0e4e8b-e06b-48d1-abe8-2eb7dd4b3795">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="SAED"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.sql.SQLQueryDesigner.sash.w1" value="479"/>
+	<property name="com.jaspersoft.studio.data.sql.SQLQueryDesigner.sash.w2" value="521"/>
+	<parameter name="unes_nome" class="java.lang.String">
+		<parameterDescription><![CDATA[unes_nome]]></parameterDescription>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT unes_id,
+	           unes_nome
+FROM tb_unidadeescolar 
+where unes_nome like '%$P!{unes_nome}%']]>
+	</queryString>
+	<field name="unes_id" class="java.math.BigInteger">
+		<property name="com.jaspersoft.studio.field.name" value="unes_id"/>
+		<property name="com.jaspersoft.studio.field.label" value="unes_id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="tb_unidadeescolar"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="unes_nome" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="unes_nome"/>
+		<property name="com.jaspersoft.studio.field.label" value="unes_nome"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="tb_unidadeescolar"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="92" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="5" width="561" height="71" uuid="23698c87-95e4-4b01-ae85-d6c94877b89c"/>
+			</rectangle>
+			<image>
+				<reportElement x="30" y="15" width="50" height="50" uuid="5d09573f-fe45-42a2-b7bd-3aaa247f5081"/>
+				<imageExpression><![CDATA["C:/wamp64/www/saed/public/img/logo.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="120" y="20" width="290" height="41" uuid="aa64985e-dc56-4f5f-9c3f-3b3300f45fae"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="20"/>
+				</textElement>
+				<text><![CDATA[Unidades Escolares]]></text>
+			</staticText>
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="450" y="20" width="100" height="30" uuid="788a7363-97f0-45c7-bab7-64aac608559f"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField pattern="HH:mm">
+				<reportElement x="450" y="46" width="100" height="30" uuid="94823411-5ae1-4730-8e66-37435140eca6"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="63" splitType="Stretch">
+			<staticText>
+				<reportElement x="110" y="20" width="100" height="30" uuid="7781cdd5-e0c2-4eb5-8209-9438880245ab">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="d9e2fafd-c8ca-42aa-b0aa-02c8d016c8de"/>
+				</reportElement>
+				<text><![CDATA[Nome da Unidade]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="20" width="100" height="30" uuid="198d506d-e019-40bf-a9e2-237e65bb0b2f">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="008e68ba-220b-418e-abe0-8abbd250243e"/>
+				</reportElement>
+				<text><![CDATA[Código]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="40" width="561" height="1" uuid="ee1a6fa1-7e4f-49fc-8fab-95f91646e4d7"/>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="62" splitType="Stretch">
+			<textField>
+				<reportElement x="110" y="0" width="230" height="30" uuid="2632fd48-5b66-4e62-bd50-922c4280f0ef">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="d9e2fafd-c8ca-42aa-b0aa-02c8d016c8de"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{unes_nome}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="0" width="100" height="30" uuid="2437439f-a903-4b43-ad6e-00c5c8616367">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="008e68ba-220b-418e-abe0-8abbd250243e"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{unes_id}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="60" splitType="Stretch">
+			<textField>
+				<reportElement x="480" y="40" width="100" height="20" uuid="e6a13d35-6e16-493c-94ca-825fc027dbcd"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,1053 @@
+
+:root {
+    /*cores que se trocam*/
+    --cor-primaria: #00a7d2;
+    --cor-secundaria: #136abc;
+    /*cores padrÃ£o do projeto*/
+    --branco: #ffffff;
+    --cinza-1: #f4f5fa;
+    --cinza-2: #c9cee1;
+    --cinza-3: #8f8f8d;
+    --cinza-4: #222222;
+    --preto: #555555;
+    --fontTitulo: "BebasNeue-Regular";
+    --fontSubTitulo: "ArialRoundedMTBold";
+    --fontConteudo: "ProximaNova-Regular";
+    --fontSubConteudo: "ArialNarrow";
+    --fontItalic: "Oswald-RegularItalic";
+    --fontCidade: "Oswald-Heavy";
+    --fontExtratLight: "Oswald-ExtraLight";
+    --fontLightItalic: "Oswald-LightItalic";
+    --fontTituloRodape: "MyriadPro-Bold";
+    --fontBotao: "Oswald-Regular";
+}
+
+
+.pagina-acessivel{
+    border-color: var(--branco) !important;
+}
+
+.pagina-acessivel .conta-caso h3,
+.pagina-acessivel .caption-noticia,
+.pagina-acessivel .caixa-balao,
+.modal-open .modal,
+.pagina-acessivel .gridtab dt p,
+.pagina-acessivel button,
+.pagina-acessivel .pagerDB-current,
+.pagina-acessivel .btn,
+.pagina-acessivel .search-box input[type="button"],
+.modal-alerta .modal-dialog{
+    background-color: transparent !important;
+}
+
+.pagina-acessivel .fluid_container h2,
+.pagina-acessivel .fluid_container p,
+.pagina-acessivel .fluid_container a,
+.pagina-acessivel .fluid_container div,
+.pagina-acessivel .btn-secretaria span:hover,
+.pagina-acessivel .slider-pro div{
+    background-color: transparent !important;
+}
+
+.pagina-acessivel div:not(.conta-caso):not(.icon):not(.container-parallax):not(.ekko-lightbox):not(.img-logo):not(.img-logo-rodape):not(.dncalendar-links):not(.caption-noticia):not(.modal-alerta):not(.modal-dialog),
+.pagina-acessivel .container-all,
+.pagina-acessivel .balao,
+.pagina-acessivel .sp-captions,
+.pagina-acessivel nav ol,
+.pagina-acessivel .gridtab>dd,
+.pagina-acessivel .balao:after {
+    background-color: #111111;
+}
+
+.pagina-acessivel .acessibilidade_div,
+.pagina-acessivel h1,
+.pagina-acessivel h2,
+.pagina-acessivel h3,
+.pagina-acessivel h4,
+.pagina-acessivel p,
+.pagina-acessivel td,
+.pagina-acessivel .container-titulo span,
+.pagina-acessivel .sem-resultado,
+.pagina-acessivel .publicacao-desc,
+.pagina-acessivel .publicacao-conta,
+.pagina-acessivel nav ol a,
+.pagina-acessivel label,
+.pagina-acessivel .sp-thumbnail-description,
+.pagina-acessivel obrigatorio,
+.pagina-acessivel .search-box input[type="button"],
+.pagina-acessivel li {
+    color: #FFFFFF !important;
+    background-color: #111111 !important;
+}
+.pagina-acessivel .status-ativo,
+.pagina-acessivel .status-cancelado,
+.pagina-acessivel .gridtab dt p,
+.pagina-acessivel .img-acesso-rapido span::before{
+    color: #111111 !important;
+}
+.pagina-acessivel .gridtab dt .seta-servico{
+    border-color: #FFFFFF transparent transparent transparent !important;
+    bottom: -20px !important;
+}
+
+.pagina-acessivel .gridtab .icon{
+    color: #111111 !important;
+}
+.pagina-acessivel .status-ativo,
+.pagina-acessivel .status-cancelado,
+.pagina-acessivel .gridtab dt,
+.pagina-acessivel .sem-resultado::after,
+.pagina-acessivel .tipo-categoria::before,
+.pagina-acessivel .menu-icon,
+.pagina-acessivel .sem-resultado::before{
+    background-color: #FFFFFF !important;
+}
+
+.pagina-acessivel .texto-acessibilidade,
+.pagina-acessivel a,
+.pagina-acessivel h1 a,
+.pagina-acessivel h2 a,
+.pagina-acessivel a h2,
+.pagina-acessivel h3 a,
+.pagina-acessivel h4 a,
+.pagina-acessivel .btn-padrao,
+.pagina-acessivel i,
+.pagina-acessivel .mostra-conteudo p,
+.pagina-acessivel .btn,
+.pagina-acessivel a p {
+    text-decoration: underline !important;
+    color: var(--branco) !important;
+    background-color: #111111 !important;
+}
+
+.pagina-acessivel .tempo,
+.pagina-acessivel .mostraPrev,
+.pagina-acessivel .tempMax,
+.pagina-acessivel .tempMin,
+.pagina-acessivel .semana,
+.pagina-acessivel .data,
+.pagina-acessivel .uv,
+.pagina-acessivel .ico{
+    color: var(--branco) !important;
+    background-color: transparent !important;
+}
+
+.pagina-acessivel .acessibilidade_div img,
+.pagina-acessivel .container-parallax,
+.pagina-acessivel .img-logo-rodape,
+.pagina-acessivel .img-logo,
+.pagina-acessivel .conta-caso,
+.pagina-acessivel .tempo,
+.pagina-acessivel .mostraPrev,
+.pagina-acessivel .tempMax,
+.pagina-acessivel .tempMin,
+.pagina-acessivel iframe,
+.pagina-acessivel img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.pagina-acessivel .table-bordered td, .table-bordered th,
+.pagina-acessivel .acessibilidade_left .acessibilidade_div::before{
+    background-color: #111111 !important;
+}
+.pagina-acessivel a:hover {
+    text-decoration: underline;
+}
+
+.pagina-acessivel .tipo-categoria,
+.pagina-acessivel .texto-secretaria-carrousel span,
+.pagina-acessivel .dncalendar-links div,
+.pagina-acessivel .btn-banner span,
+.pagina-acessivel .conteudo-noticia .titulo-noticia .btn-noticia:hover,
+.pagina-acessivel .btn-secretaria span {
+    color: #FFFFFF !important;
+}
+
+.pagina-acessivel .dropdown-menu {
+    border-color: #FFFFFF !important;
+}
+
+.pagina-acessivel li.active>a {
+    color: #E53935 !important;
+}
+
+.pagina-acessivel .table-bordered td, .table-bordered th,
+.pagina-acessivel .caixa-publicacao,
+.pagina-acessivel .btn-padrao,
+.pagina-acessivel .modal-content,
+.pagina-acessivel .conta-caso,
+.pagina-acessivel .nav-item,
+.pagina-acessivel .conteudo-midia .owl-item,
+.pagina-acessivel .container-acesso-rapido,
+.pagina-acessivel #dncalendar-container,
+.pagina-acessivel nav ol a,
+.pagina-acessivel .form-control,
+.pagina-acessivel .compartilha_font,
+.pagina-acessivel .mostra-conteudo,
+.pagina-acessivel .esconde-conteudo,
+.pagina-acessivel .container-termo,
+.pagina-acessivel .btn,
+.pagina-acessivel .btn-mais-noticia,
+.pagina-acessivel .btn-banner span,
+.pagina-acessivel .search-box input[type="button"],
+.pagina-acessivel .nav-busca i,
+.pagina-acessivel .search-box,
+.pagina-acessivel .previsao_tempo,
+.pagina-acessivel .mostraPrev,
+.pagina-acessivel .balao{
+    border: 1px solid var(--branco) !important;
+}
+.pagina-acessivel .btn-dados,
+.pagina-acessivel .btn-noticia,
+.pagina-acessivel .declaracao label:before,
+.pagina-acessivel .btn-secretaria span,
+.pagina-acessivel .btn-table{
+    border: 2px solid var(--branco) !important;
+}
+.pagina-acessivel .declaracao label:after{
+    border: solid var(--branco) !important;
+    border-width: 0 2px 2px 0 !important;
+}
+
+.pagina-acessivel .sm-clean li:hover, .sm-clean li:focus, .sm-clean li:active, .sm-clean li.highlighted{
+    border-bottom: 4px solid var(--branco) !important;
+}
+
+.pagina-acessivel .camera_caption a:before{
+    border-top: 4px solid var(--branco) !important;
+}
+.pagina-acessivel .container-atendimento,
+.pagina-acessivel .container-menu,
+.pagina-acessivel .container-conteudo{
+    border-bottom: 1px solid var(--branco) !important;
+}
+
+.pagina-acessivel .container-facebook-plugin,
+.pagina-acessivel .copyright{
+    border-top: 1px solid var(--branco) !important;
+}
+.pagina-acessivel .search-box,
+.pagina-acessivel .dncalendar-header{
+    border-top: none;
+}
+
+.pagina-acessivel .sp-right-thumbnails.sp-has-pointer .sp-selected-thumbnail:before{
+    border-left: 7px solid var(--branco);
+}
+.pagina-acessivel .sp-right-thumbnails.sp-has-pointer .sp-selected-thumbnail:after{
+    border-right: 13px solid var(--branco);
+}
+
+
+.acess-container {
+    cursor: pointer;
+    display: block;
+    position: fixed;
+    left: 30px;
+    bottom: 80px;
+    z-index: 9999;
+}
+
+#jbbutton {
+    margin-left: 0px;
+    width: 54px;
+    height: 54px;
+    float: left;
+}
+
+.acess-icon {
+    margin-top: 7px;
+    margin-left: 2px;
+    float: left;
+}
+
+#acess-icons {
+    display: none;
+    float: left;
+}
+
+.f-transparent {
+    background-color: transparent !important;
+}
+
+.balloon {
+    position: relative;
+    display: inline-block;
+}
+
+.balloon .balloontext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #1E88E5;
+    color: #FFFFFF;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 120%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.balloon .balloontext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #1E88E5 transparent transparent transparent;
+}
+
+.balloon:hover .balloontext {
+    visibility: visible;
+}
+
+/*plugin da acessibilidade, botÃ£o lateral*/
+
+img,
+a {
+    border: 0;
+}
+
+.on {
+    visibility: visible;
+}
+
+.off {
+    visibility: hidden;
+}
+
+.acessibilidade_left {
+    background-color: var(--branco);
+    width: 302px;
+    height: auto;
+    position: fixed;
+    top: 40%;
+    left: -250px;
+    transition: .8s all ease;
+    z-index: 9999999;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 1px solid #c7c9ce;
+    border-left: none;
+    margin-top: -152px;
+
+}
+
+.acessibilidade_left .addFrame img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.acessibilidade_left .acessibilidade_div {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-bottom: 1px solid #c7c9ce;
+    background: var(--branco);
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    color: #53565b;
+}
+
+.acessibilidade_left .acessibilidade_div:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #c7c9ce;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.acessibilidade_left .acessibilidade_div:hover,
+.acessibilidade_left .acessibilidade_div:focus,
+.acessibilidade_left .acessibilidade_div:active {
+    color: var(--branco);
+}
+
+.acessibilidade_left .acessibilidade_div:hover:before,
+.acessibilidade_left .acessibilidade_div:focus:before,
+.acessibilidade_left .acessibilidade_div:active:before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+
+.acessibilidade_left .texto-acessibilidade {
+    float: right;
+    padding: 10px;
+    font-family: "Arial";
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-touch-callout: none;
+    /* iPhone OS, Safari */
+    -webkit-user-select: none;
+    /* Chrome, Safari 3 */
+    -khtml-user-select: none;
+    /* Safari 2 */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+ */
+    user-select: none;
+    /* PossÃ­vel implementaÃ§Ã£o no futuro */
+    /* cursor: default; */
+}
+
+.acessibilidade_left .img-acessibilidade {
+    float: right;
+    padding: 11px;
+    width: 25px;
+    height: 25px;
+    display: table
+}
+
+.acessibilidade_left .caixa-balao {
+    position: absolute;
+    z-index: 9999;
+    display: none;
+    left: 300px;
+    top: 1px;
+    padding-left: 20px;
+}
+
+.acessibilidade_left .caixa-atalho {
+    top: 81px !important;
+}
+
+.acessibilidade_left .caixa-atalho .balao {
+    width: 290px !important;
+}
+
+.acessibilidade_left .balao {
+    background: #dfdfdf;
+    padding: 15px;
+}
+
+.acessibilidade_left .balao:before {
+    content: "";
+    background: #dfdfdf;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 85%;
+    z-index: -1;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.acessibilidade_right {
+    background-color: var(--branco);
+    width: 302px;
+    height: auto;
+    position: fixed;
+    top: 20%;
+    right: -250px;
+    transition: .8s all ease;
+    z-index: 9999999;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 1px solid #c7c9ce;
+    border-right: none;
+}
+
+.acessibilidade_right .addFrame img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.acessibilidade_right .acessibilidade_div {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-bottom: 1px solid #c7c9ce;
+    background: var(--branco);
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    color: #53565b;
+}
+
+.acessibilidade_right .acessibilidade_div:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #c7c9ce;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.acessibilidade_right .acessibilidade_div:hover,
+.acessibilidade_right .acessibilidade_div:focus,
+.acessibilidade_right .acessibilidade_div:active {
+    color: var(--branco);
+}
+
+.acessibilidade_right .acessibilidade_div:hover:before,
+.acessibilidade_right .acessibilidade_div:focus:before,
+.acessibilidade_right .acessibilidade_div:active:before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+
+.acessibilidade_right .texto-acessibilidade {
+    float: left;
+    padding: 10px;
+    font-family: "Arial";
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-touch-callout: none;
+    /* iPhone OS, Safari */
+    -webkit-user-select: none;
+    /* Chrome, Safari 3 */
+    -khtml-user-select: none;
+    /* Safari 2 */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+ */
+    user-select: none;
+    /* PossÃ­vel implementaÃ§Ã£o no futuro */
+    /* cursor: default; */
+}
+
+.acessibilidade_right .img-acessibilidade {
+    float: left;
+    padding: 11px;
+    width: 25px;
+    height: 25px;
+    display: table;
+}
+
+.acessibilidade_right .caixa-balao {
+    position: absolute;
+    z-index: 9999;
+    display: none;
+    right: 300px;
+    top: 1px;
+    padding-right: 20px;
+}
+
+.acessibilidade_right .caixa-atalho {
+    top: 81px !important;
+}
+
+.acessibilidade_right .caixa-atalho .balao {
+    width: 290px !important;
+}
+
+.acessibilidade_right .balao {
+    background: #dfdfdf;
+    padding: 15px;
+}
+
+.acessibilidade_right .balao:after {
+    content: "";
+    background: #dfdfdf;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 10px;
+    top: 85%;
+    z-index: -1;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.balao p {
+    font-family: "Arial";
+    font-size: 14px;
+    color: #606060;
+    text-align: justify;
+}
+
+.mostra-libra:hover .caixa-balao {
+    display: block;
+}
+
+.mostra-atalho:hover .caixa-atalho {
+    display: block;
+}
+
+.btn-acessibilidade {
+    display: none;
+}
+
+@media only screen and (min-width: 640px) {
+    .acessibilidade_left:hover {
+        left: 0px;
+    }
+
+    .acessibilidade_right:hover {
+        right: 0px;
+    }
+}
+
+@media only screen and (max-width: 639px) {
+    .acessibilidade_left {
+        background-color: var(--branco);
+        width: 302px;
+        height: auto;
+        position: fixed;
+        bottom: 60px;
+        top: auto;
+        left: -303px;
+    }
+
+    .acessibilidade_right {
+        background-color: var(--branco);
+        width: 302px;
+        height: auto;
+        position: fixed;
+        top: 20%;
+        right: -303px;
+    }
+
+    .acessibilidade_topo {
+        background-color: var(--branco);
+        width: 302px;
+        height: auto;
+        position: fixed;
+        top: 20%;
+    }
+
+    .mostra-libra:hover .caixa-balao,
+    .caixa-atalho {
+        display: none;
+    }
+
+    .acessibilidade_left .btn-acessibilidade {
+        display: table;
+        background: var(--branco);
+        width: 10px;
+        height: auto;
+        padding: 15px;
+        position: absolute;
+        right: -35px;
+        bottom: -1px;
+        cursor: pointer;
+        border: 1px solid #c7c9ce;
+        border-right: none;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        transform: rotate(180deg);
+    }
+
+    .acessibilidade_right .btn-acessibilidade {
+        display: table;
+        background: var(--branco);
+        width: 10px;
+        height: auto;
+        padding: 15px;
+        position: absolute;
+        left: -37px;
+        bottom: -1px;
+        cursor: pointer;
+        border: 1px solid #c7c9ce;
+        border-right: none;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+
+    .acessibilidade_left.acessibilidade_mobile {
+        left: 0px !important;
+    }
+
+    .acessibilidade_right.acessibilidade_mobile {
+        right: 0px !important;
+    }
+
+    .acessibilidade_topo.acessibilidade_mobile {
+        right: 0px !important;
+    }
+}
+
+.on-tema .acessibilidade_left {
+    background-color: var(--branco);
+    width: 302px;
+    height: auto;
+    position: fixed;
+    top: 100%;
+    left: -250px;
+    transition: .8s all ease;
+    z-index: 9999999;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 1px solid #c7c9ce;
+    border-left: none;
+    margin-top: -120px
+}
+
+.on-tema .acessibilidade_right {
+    background-color: var(--branco);
+    width: 302px;
+    height: auto;
+    position: fixed;
+    top: 100%;
+    right: -250px;
+    transition: .8s all ease;
+    z-index: 9999999;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 1px solid #c7c9ce;
+    border-right: none;
+    margin-top: -152px
+}
+
+.on-tema .acessibilidade_topo {
+    background-color: var(--branco);
+    width: 302px;
+    height: auto;
+    position: fixed;
+    top: auto;
+    right: -250px;
+    transition: .8s all ease;
+    z-index: 9999999;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 1px solid #c7c9ce;
+    border-right: none;
+    bottom: 0px
+}
+
+.on-tema .acessibilidade_left .img-acessibilidade {
+    float: right;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    display: table
+}
+
+.on-tema .acessibilidade_right .img-acessibilidade {
+    float: left;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    display: table
+}
+
+.on-tema .acessibilidade_topo .img-acessibilidade {
+    float: left;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    display: table
+}
+
+.on-tema .acessibilidade_left .texto-acessibilidade {
+    float: right;
+    padding: 10px;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 700;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.on-tema .acessibilidade_right .texto-acessibilidade {
+    float: left;
+    padding: 10px;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 700;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.on-tema .acessibilidade_topo .texto-acessibilidade {
+    float: left;
+    padding: 10px;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 700;
+    display: table;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.on-tema .acessibilidade_topo .img-acessibilidade img {
+    width: auto;
+}
+
+@media only screen and (max-width:639px) {
+    .on-tema .acessibilidade_left {
+        background-color: var(--branco);
+        width: 302px;
+        height: auto;
+        position: fixed;
+        bottom: 0;
+        top: auto
+    }
+
+    .on-tema .acessibilidade_right {
+        background-color: var(--branco);
+        width: 302px;
+        height: auto;
+        position: fixed;
+        bottom: 0;
+        top: auto
+    }
+
+    .on-tema .acessibilidade_topo {
+        background-color: var(--branco);
+        width: 302px;
+        height: auto;
+        position: fixed;
+        bottom: 0;
+        top: auto
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    .on-tema .acessibilidade_left:hover {
+        left: 0px
+    }
+
+    .on-tema .acessibilidade_right:hover {
+        right: 0px
+    }
+
+    .on-tema .acessibilidade_topo:hover {
+        right: 0px
+    }
+}
+
+.acessibilidade_topo {
+    background-color: var(--cinza-1);
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 0;
+    transition: .8s all ease;
+    z-index: 9999999;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.acessibilidade_topo .addFrame img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.acessibilidade_topo .acessibilidade_div {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    background: transparent;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    color: #53565b;
+    border-radius: 0 !important;
+    flex-grow: 1;
+}
+
+.acessibilidade_topo .acessibilidade_div:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #c7c9ce;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.acessibilidade_topo .acessibilidade_div:hover,
+.acessibilidade_topo .acessibilidade_div:focus,
+.acessibilidade_topo .acessibilidade_div:active {
+    color: var(--branco);
+}
+
+.acessibilidade_topo .acessibilidade_div:hover:before,
+.acessibilidade_topo .acessibilidade_div:focus:before,
+.acessibilidade_topo .acessibilidade_div:active:before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+
+.acessibilidade_topo .texto-acessibilidade {
+    float: left;
+    padding: 10px;
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: bold;
+    -webkit-touch-callout: none;
+    /* iPhone OS, Safari */
+    -webkit-user-select: none;
+    /* Chrome, Safari 3 */
+    -khtml-user-select: none;
+    /* Safari 2 */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+ */
+    user-select: none;
+    /* PossÃ­vel implementaÃ§Ã£o no futuro */
+    /* cursor: default; */
+}
+
+.acessibilidade_topo .img-acessibilidade {
+    float: left;
+    padding: 8px;
+    width: 16px;
+    height: 16px;
+    display: table;
+}
+
+.acessibilidade_topo .img-acessibilidade img {
+    width: 16px;
+}
+
+.acessibilidade_topo .mostra-libra {
+    position: relative;
+    display: inline-table;
+    flex-grow: 1;
+}
+
+.acessibilidade_topo .caixa-balao {
+    position: absolute;
+    z-index: 9999;
+    display: none;
+    left: -50%;
+    padding-top: 15px;
+    top: 100%;
+}
+
+.acessibilidade_topo .caixa-atalho {
+    left: 65%
+}
+
+.acessibilidade_topo .balao {
+    background: #dfdfdf;
+    padding: 15px;
+}
+
+.acessibilidade_topo .balao:after {
+    content: "";
+    background: #dfdfdf;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: calc(50% - 10px);
+    top: 2%;
+    z-index: -1;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+@media only screen and (max-width: 991px) {
+
+    .acessibilidade_topo .caixa-balao,
+    .acessibilidade_topo .texto-acessibilidade {
+        display: none;
+    }
+
+    .on,
+    .acessibilidade_topo {
+        background: var(--cinza-1);
+    }
+}
+
+/* EFEITO FOCO TECLAS DE ATALHO */
+
+.atalho-foco {
+    box-shadow: 1px 1px 8px 0px #000
+}
+
+@media only screen and (max-width: 640px) {
+    .mostra-atalho {
+        display: none
+    }
+}
+
