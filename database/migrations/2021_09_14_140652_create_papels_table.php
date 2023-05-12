@@ -14,7 +14,7 @@ class CreatePapelsTable extends Migration
     public function up()
     {
         Schema::create('papeis', function (Blueprint $table) {
-            $table->increments('id');
+            $table->increments('id')->unsigned();
             $table->string("nome");
             $table->string("descricao")->nullable();
             $table->timestamps();
